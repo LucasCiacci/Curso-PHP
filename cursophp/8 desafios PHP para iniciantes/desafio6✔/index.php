@@ -29,10 +29,12 @@
             <?php 
                 $quociente = intdiv($dividendo, $divisor);
                 $resto = $dividendo % $divisor;
-                print "O valor do dividendo é $dividendo<br>";
-                print "O valor do divisor é $divisor<br>";
-                echo "O resultado é $quociente<br>"; 
-                echo "O resto é $resto"; 
+                echo "<ul>";
+                print "<li>O valor do dividendo é $dividendo</li>";
+                print "<li>O valor do divisor é $divisor</li>";
+                echo "<li>O resultado é $quociente</li>"; 
+                echo "<li>O resto é $resto</li>"; 
+                echo "</ul>";
             ?>
         </p>
     </section>
