@@ -41,7 +41,9 @@
                 echo "Analisando os valores $v1 e $v2:";
                 $media_aritmetica_simples = ($v1 + $v2) / 2;
                 $media_aritmetica_ponderada = ($v1 * $p1 + $v2 * $p2) / ($p1 + $p2);
+                
                 print "<ul><li>A <strong>Média Aritmética Simples</strong> entre os valores é igual a " . number_format($media_aritmetica_simples, 2, ",", ".") . ".</li></ul>";
+                
                 print "<ul><li>A <strong>Média Aritmética Ponderada</strong> com pesos $p1 e $p2 é igual a " . number_format($media_aritmetica_ponderada, 2, ",", ".") . ".</li></ul>";
             ?>
         </p>
