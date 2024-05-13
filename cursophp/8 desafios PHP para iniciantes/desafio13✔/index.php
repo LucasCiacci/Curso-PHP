@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caixa Eletrônico</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        img.nota {
+            height: 50px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
     <?php 
@@ -37,12 +43,13 @@
             $cinco = ($restoDez / 5);
              
 
-            print "<ul><li> <img src='nota de 100.png' alt='nota de 100'> x" . (int) $cem . " </li></ul>";
-            print "<ul><li> <img src='nota de 50.png' alt='nota de 50'> x" . (int) $cinquenta  . " </li></ul>";
-            print "<ul><li> <img src='nota de 10.png' alt='nota de 10'> x" . (int) $dez . " </li></ul>";
-            print "<ul><li> <img src='nota de 5.png' alt='nota de 5'> x" . (int) $cinco . " </li></ul>";
+            print "<ul><li> <img src='imagens/100-reais.jpg' alt='nota de 100' class='nota'> x" . (int) $cem . " </li></ul>";
+            print "<ul><li> <img src='imagens/50-reais.jpg' alt='nota de 50' class='nota'> x" . (int) $cinquenta  . " </li></ul>";
+            print "<ul><li> <img src='imagens/10-reais.jpg' alt='nota de 10' class='nota'> x" . (int) $dez . " </li></ul>";
+            print "<ul><li> <img src='imagens/5-reais.jpg' alt='nota de 5' class='nota'> x" . (int) $cinco . " </li></ul>";
         ?>
     </section>
 </body>
 </html>
         
+
